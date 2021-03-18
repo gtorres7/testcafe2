@@ -1,0 +1,16 @@
+{
+  "name": "automation-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-all-firefox": "testcafe firefox ./page_model/test",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gibran",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "testcafe": "^1.12.0"
+  }
+}
